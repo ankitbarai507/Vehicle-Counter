@@ -5,8 +5,9 @@ Now, we calculate IoU for the two bounding boxes and if IoU<threshlod then Vehic
 Real time Vehicle counter using OpenCV trackers and FRCNN Object detection <br>
 Download [frozen_inference_graph_frcnn.pb](https://github.com/mhBahrami/CarND-Capstone/blob/master/ros/src/tl_detector/models/sim/frozen_inference_graph_frcnn.pb)
 
-Change video file name in main function
-Run python track.py <br>
+**Testing**
+Run python track.py <br/>
 
+**Results with Bangalore Traffic**
 [Results1](https://youtu.be/rsgLz582Mfw)  <br/>
 [Results2](https://youtu.be/8jpjXcMgrDM)
