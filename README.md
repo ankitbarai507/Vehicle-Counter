@@ -7,9 +7,9 @@ Download [frozen_inference_graph_frcnn.pb](https://github.com/mhBahrami/CarND-Ca
 
 **Testing**
 ```python
-python track.py <br/>
+python track.py
 ```
 
 **Results **
-[Results1](https://youtu.be/rsgLz582Mfw)  <br/>
-[Results2](https://youtu.be/8jpjXcMgrDM)
+[Results1](https://youtu.be/rsgLz582Mfw)   <br/>
+[Results2](https://youtu.be/8jpjXcMgrDM) 
