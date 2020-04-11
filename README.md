@@ -6,8 +6,10 @@ Real time Vehicle counter using OpenCV trackers and FRCNN Object detection <br>
 Download [frozen_inference_graph_frcnn.pb](https://github.com/mhBahrami/CarND-Capstone/blob/master/ros/src/tl_detector/models/sim/frozen_inference_graph_frcnn.pb)
 
 **Testing**
-Run python track.py <br/>
+```python
+python track.py <br/>
+```
 
-**Results with Bangalore Traffic**
+**Results **
 [Results1](https://youtu.be/rsgLz582Mfw)  <br/>
 [Results2](https://youtu.be/8jpjXcMgrDM)
