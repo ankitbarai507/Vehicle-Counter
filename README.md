@@ -28,3 +28,13 @@ It is a heavy architecture which is based on bounding boxes it cannot be used fo
 + It treats errors the same in small bounding boxes versus large bounding boxes. A small error in a large box is generally benign but a small error in a small box has a much greater effect on IOU. Our main source of error is incorrect localizations.
 + YOLO is a heavy weight model 269.9MB, which is gives low recognition speed 2–3 fps and less accuracy.
 
+**Mobile Net-SSD Model Framework**
+Mobile Nets SSD (Single Shot Multibox Detection) is an Efficient convolution Neural Network architecture for mobile and embedded vision applications. MobileNets are based on a streamlined architecture that uses depth wise separable convolutions to build light weight deep neural networks. Mobile Net is an architecture which is more suitable for mobile and embedded based vision applications where there is lack of compute power. This architecture was proposed by Google. This architecture uses depth wise separable convolutions which significantly reduces the number of parameters when compared to the network with normal convolutions with the same depth in the networks. This results in light weight deep neural networks. The normal convolution is replaced by depth wise convolution followed by point wise convolution which is called as depth wise separable convolution. By using depth wise separable convolutions, there is some sacrifice of accuracy for low complexity deep neural network. Employing Single Shot Multi-Box Detection compensate that and improves accuracy as well.
++ Single Shot: this means that the tasks of object localization and classification are done in a single forward pass of the network
++ Multi-box: this is the name of a technique for bounding box regression developed by Szegedy et al.
++ Detector: The network is an object detector that also classifies those detected objects.
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+
+
