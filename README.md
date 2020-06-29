@@ -20,7 +20,7 @@ A Vehicle Detection involves finding whether there is vehicle present or not sec
 
 **YOLO (You Only look once ) Model**
 It is a heavy architecture which is based on bounding boxes it cannot be used for embedded vision applications. Its trained on Pascal VOC, which can detect up to twenty different classes. Architecture of YOLO Yolo architecture is more like FCNN (fully constitutional neural network) and passes the image (nxn) once through the FCNN and output is (mxm) prediction. This the architecture is splitting the input image in mxm grid and for each grid generation 2 bounding boxes and class probabilities for those bounding boxes. Bounding box is more likely to be larger than the grid itself.
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
 
 **Limitations of YOLO**
 + YOLO imposes strong spatial constraints on bounding box predictions since each grid cell only predicts two boxes and can only have one class. This spatial constraint limits the number of nearby objects that our model can predict.
@@ -33,8 +33,6 @@ Mobile Nets SSD (Single Shot Multibox Detection) is an Efficient convolution Neu
 + Single Shot: this means that the tasks of object localization and classification are done in a single forward pass of the network
 + Multi-box: this is the name of a technique for bounding box regression developed by Szegedy et al.
 + Detector: The network is an object detector that also classifies those detected objects.
-
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 
 
