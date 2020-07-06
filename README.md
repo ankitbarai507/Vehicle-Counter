@@ -9,6 +9,7 @@ Download [frozen_inference_graph_frcnn.pb](https://github.com/mhBahrami/CarND-Ca
 ```python
 python track.py
 ```
+Change the line no.362 in track.py with the video path(Video on which to test vehicle counter model)
 
 **Results **
 [Results1](https://youtu.be/rsgLz582Mfw)   <br/>
