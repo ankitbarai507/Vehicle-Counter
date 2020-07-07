@@ -13,13 +13,15 @@ python track.py
 
 Change the line no.362 in track.py with the video path(Video on which to test vehicle counter model)
 
-**Results **
+**Results**
 [Results1](https://youtu.be/rsgLz582Mfw)   <br/>
 [Results2](https://youtu.be/8jpjXcMgrDM) 
 
 ---
 
 A Vehicle Detection involves finding whether there is vehicle present or not secondly which type of vehicle is present and how many vehicles are present. Basically, vehicle presence needs to be detected after detecting a vehicle it has to be classified. Classification is the main part which means what type of vehicle it is (car, bus, bike, etc.). Smart Traffic Management aims at the avoidance of traffic on roads especially on highways because where manual governance and management is difficult. Implementation of traffic surveillance camera finds primary application in traffic monitoring through which management will become easier. If those cameras are enabled by the modern technology enables the Smart Traffic Management.
+
+Note: The Documentation is yet to be completed.
 
 **YOLO (You Only look once ) Model**
 It is a heavy architecture which is based on bounding boxes it cannot be used for embedded vision applications. Its trained on Pascal VOC, which can detect up to twenty different classes. Architecture of YOLO Yolo architecture is more like FCNN (fully constitutional neural network) and passes the image (nxn) once through the FCNN and output is (mxm) prediction. This the architecture is splitting the input image in mxm grid and for each grid generation 2 bounding boxes and class probabilities for those bounding boxes. Bounding box is more likely to be larger than the grid itself.
