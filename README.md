@@ -1,7 +1,7 @@
 # Vehicle-Counter
 **Methodology** <br/>
 We run object detection & classification model like Mobilenet,FRCNN(more optimal) to get BBoxes for each vehicles within current frame and assign a Tracker to each vehicle detected, then we get updated BBoxes for tracked vehcile using Tracking algorithm OpenCV Trackers. Also, we run the Vehicle detection model again for next frame.
-Now, we calculate IoU for the two bounding boxes(one predicted by Tracking algorithms and another predicted by Vehicle detection modelfor next frame) and if IoU < <i>threshlod<i/> then Vehicle count is incremented (As it is some new vehicle getting inside frame of video) and a tracker is assigned to this newly detected vehicle else it was a vehicle counted in previous frames. Also when BBoxes returned by Tracker gets out of Frame, the trackers are released.<br/>
+Now, we calculate IoU for the two bounding boxes(one predicted by Tracking algorithms and another predicted by Vehicle detection modelfor next frame) and if IoU < <i>threshlod</i> then Vehicle count is incremented (As it is some new vehicle getting inside frame of video) and a tracker is assigned to this newly detected vehicle else it was a vehicle counted in previous frames. Also when BBoxes returned by Tracker gets out of Frame, the trackers are released.<br/>
 Real time Vehicle counter using OpenCV trackers and FRCNN Object detection <br>
 
 
@@ -14,9 +14,9 @@ python track.py
 Change the line no.362 in track.py with the video path(Video on which to test vehicle counter model)
 
 **Results**
-[![IMAGE ALT TEXT](7.PNG)](https://www.youtube.com/embed/rsgLz582Mfw)
+[![IMAGE ALT TEXT](7.PNG)](https://www.youtube.com/embed/8jpjXcMgrDM)
 <br/>
-[Result 2](https://www.youtube.com/embed/8jpjXcMgrDM)
+[Result 2](https://www.youtube.com/embed/rsgLz582Mfw)
 
 
 ---
