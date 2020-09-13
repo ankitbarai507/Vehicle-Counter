@@ -14,9 +14,10 @@ python track.py
 Change the line no.362 in track.py with the video path(Video on which to test vehicle counter model)
 
 **Results**
-<iframe width="956" height="538" src="https://www.youtube.com/embed/rsgLz582Mfw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![IMAGE ALT TEXT](7.PNG)](https://www.youtube.com/embed/rsgLz582Mfw)
 <br/>
-<iframe width="956" height="538" src="https://www.youtube.com/embed/8jpjXcMgrDM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+[Result 2](https://www.youtube.com/embed/8jpjXcMgrDM)
+
 
 ---
 
